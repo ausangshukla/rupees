@@ -25,7 +25,7 @@ module NumberToRupees
  	  else	 
        result = spell_two_digits(num)
      end
-	  result.sub(/,\s$/,'')+ " Rupees."
+	  result.sub(/,\s$/,'')
     end
 
     protected
