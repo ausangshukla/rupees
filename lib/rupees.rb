@@ -48,4 +48,4 @@ module NumberToRupees
    end
  end 
 end 
-Fixnum.send :include, NumberToRupees::Fixnum
+Integer.send :include, NumberToRupees::Integer
